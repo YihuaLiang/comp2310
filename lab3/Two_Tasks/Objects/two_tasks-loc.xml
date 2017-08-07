@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_project>
+      <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\Sources\timestamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_project>
+      <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\Sources\two_tasks.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_project>
+      <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\Sources\timestamp.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_project>
+      <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\Sources\timestamp_absolute.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_project>
+      <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\Sources\two_tasks_timestamped.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_project>
+      <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\Sources\two_tasks.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_project>
+      <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\Sources\timestamp_absolute.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\two_tasks.gpr</vfs_project>
+      <vfs_file>D:\17s2\comp2310-nsc\lab3\Two_Tasks\Two_Tasks\Sources\timestamp.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

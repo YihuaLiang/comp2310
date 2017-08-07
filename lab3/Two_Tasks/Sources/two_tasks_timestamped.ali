@@ -1,0 +1,109 @@
+V "GNAT Lib v2017"
+M P W=b
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U two_tasks_timestamped%b  two_tasks_timestamped.adb  04e46189 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20170516105948 9f20b83d ada.calendar.delays%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20170516105950 a87e2da7 ada.real_time%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cstrin.ads		20170516105952 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20170516105952 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
+D s-imglld.ads		20170516105956 f3220969 system.img_lld%s
+D s-multip.ads		20170516105948 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20170516105954 2e5b26a9 system.os_interface%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stausa.ads		20170516105954 017a0a05 system.stack_usage%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20170516105952 601f6b72 system.task_info%s
+D s-taspri.ads		20170516105952 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20170516105950 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170516105956 05d6152c system.tasking%s
+D s-tassta.ads		20170516105952 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D s-win32.ads		20170516105948 b7f96285 system.win32%s
+D two_tasks_timestamped.adb  20170807023758 11d69589 two_tasks_timestamped%b
+X 1 ada.ads
+16K9*Ada 20e8 40|2r6 2r24 3r6 3r24
+X 2 a-calend.ads
+36K13*Calendar 395e17 40|3w10 3r28
+44I9*Time<213I9> 40|12r29 15r30 30r30 46r33
+50I12*Year_Number{integer} 40|21r12 36r12 52r12
+51I12*Month_Number{integer} 40|20r12 35r12 51r12
+52I12*Day_Number{integer} 40|19r12 34r12 50r12
+56O12*Day_Duration{duration} 40|22r12 37r12 53r12
+58V13*Clock{44I9} 40|12s37 15s38 30s38 46s41
+66V13*Year{50I12} 40|21s33 36s33 52s33
+67V13*Month{51I12} 40|20s33 35s33 51s33
+68V13*Day{52I12} 40|19s32 34s32 50s32
+69V13*Seconds{56O12} 40|22s33 37s33 53s33
+102V14*"+"{44I9} 40|26s33 41s33 57s33
+213I9 Time_Rep<long_long_integer>
+X 9 a-textio.ads
+49K13*Text_IO 471e16 40|2w10 2r28
+166U14*New_Line 40|18s7 23s7 25s7 33s7 38s7 40s7 49s7 54s7 56s7
+242U14*Put 40|17s7 19s7 20s7 21s7 22s7 32s7 34s7 35s7 36s7 37s7 48s7 50s7
+. 51s7 52s7 53s7
+263U14*Put_Line 40|24s7 39s7 55s7
+X 28 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 40 two_tasks_timestamped.adb
+5U11*Two_Tasks_Timestamped 5b11 59l5 59t26
+7t9 First_One 14b14 27l8 27t17
+8t9 Second_One 29b14 42l8 42t18
+11o4 Delay_Per_Iteration{duration} 26r39 41r39 57r39
+12i4 Start_Up_Time{2|44I9} 26r19 41r19 57r19
+15i7 Time_task_1{2|44I9} 19r37 20r40 21r39 22r42
+30i7 Time_task_2{2|44I9} 34r37 35r40 36r39 37r42
+46i7 Time_procedure{2|44I9} 50r37 51r40 52r39 53r42
+
